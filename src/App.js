@@ -76,7 +76,7 @@ function App() {
         <input type='number' value={number} onChange={onChangeValue} />
       </aside>
       <main className='main'>
-        <select value={calcType} onChange={onChangeCalcType}>
+        <select value={calcType} onChange={onChangeCalcType} className={'calc-type'}>
           <option value='prime'>isPrime</option>
           <option value='fibonacci'>isFibonacci</option>
         </select>

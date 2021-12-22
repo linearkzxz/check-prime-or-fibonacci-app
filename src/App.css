@@ -27,3 +27,7 @@
     overflow-x: scroll;
   }
 }
+
+.calc-type {
+  width: 100px;
+}
